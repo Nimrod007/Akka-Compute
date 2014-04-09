@@ -1,0 +1,932 @@
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.3.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cf5d7d2[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.3.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.3.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.3.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23016445[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60912875[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe#config;1.2.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-slf4j_2.10;2.3.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63131008[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.10;2.3.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-slf4j_2.10;2.3.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-slf4j_2.10;2.3.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18d3b3a3[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1125b1e9[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.google.protobuf#protobuf-java;2.4.1[0m
+[0m[[0mdebug[0m] [0m	found com.google.protobuf#protobuf-java;2.4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.aspectj#aspectjrt;1.7.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a583e68[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.aspectj#aspectjrt;1.7.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.aspectj#aspectjrt;1.7.2[0m
+[0m[[0mdebug[0m] [0m	found org.aspectj#aspectjrt;1.7.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-remote_2.10;2.2.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@572ac466[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.akka#akka-remote_2.10;2.2.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.typesafe.akka#akka-remote_2.10;2.2.0[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-remote_2.10;2.2.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty;3.6.6.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ac8b947[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.netty#netty;3.6.6.Final[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: io.netty#netty;3.6.6.Final[0m
+[0m[[0mdebug[0m] [0m	found io.netty#netty;3.6.6.Final in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.uncommons.maths#uncommons-maths;1.2.2a ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d9ed1e4[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.uncommons.maths#uncommons-maths;1.2.2a[0m
+[0m[[0mdebug[0m] [0m	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource#sigar;1.6.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c1e5dc5[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource#sigar;1.6.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource#sigar;1.6.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource#sigar;1.6.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving log4j#log4j;1.2.15 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27ff5468[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: log4j#log4j;1.2.15[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: log4j#log4j;1.2.15[0m
+[0m[[0mdebug[0m] [0m	found log4j#log4j;1.2.15 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.3.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe#config;1.2.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.10;2.3.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.google.protobuf#protobuf-java;2.4.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.aspectj#aspectjrt;1.7.2 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.2.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->io.netty#netty;3.6.6.Final [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource#sigar;1.6.4 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->log4j#log4j;1.2.15 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.2 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.2 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.2 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.2 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.2 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.2 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.2[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#jline;2.10.2[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.2 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.2 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.2 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/akkacomputeexample/akkacomputeexample$sources_javadoc_2.10/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.3.0!akka-actor_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.3.0!akka-actor_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.3.0!akka-actor_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.10;2.3.0!akka-slf4j_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.10;2.3.0!akka-slf4j_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.10;2.3.0!akka-slf4j_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.4.1!protobuf-java.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.aspectj#aspectjrt;1.7.2!aspectjrt.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.aspectj#aspectjrt;1.7.2!aspectjrt.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.aspectj#aspectjrt;1.7.2!aspectjrt.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.10;2.2.0!akka-remote_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.10;2.2.0!akka-remote_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.10;2.2.0!akka-remote_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.6.6.Final!netty.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.6.6.Final!netty.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.6.6.Final!netty.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource#sigar;1.6.4!sigar.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource#sigar;1.6.4!sigar.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource#sigar;1.6.4!sigar.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.15!log4j.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.15!log4j.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.2!scala-compiler.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.2!scala-compiler.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.2!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.2!scala-reflect.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.2!scala-reflect.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.2!jline.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 923ms :: artifacts dl 142ms[0m
+[0m[[0mdebug[0m] [0m	report for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT compile produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/reports/akkacomputeexample-akkacomputeexample$sources_javadoc_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT runtime produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/reports/akkacomputeexample-akkacomputeexample$sources_javadoc_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT test produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/reports/akkacomputeexample-akkacomputeexample$sources_javadoc_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT provided produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/reports/akkacomputeexample-akkacomputeexample$sources_javadoc_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT optional produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/reports/akkacomputeexample-akkacomputeexample$sources_javadoc_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT compile-internal produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/reports/akkacomputeexample-akkacomputeexample$sources_javadoc_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT runtime-internal produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/reports/akkacomputeexample-akkacomputeexample$sources_javadoc_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT test-internal produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/reports/akkacomputeexample-akkacomputeexample$sources_javadoc_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT plugin produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/reports/akkacomputeexample-akkacomputeexample$sources_javadoc_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT sources produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/reports/akkacomputeexample-akkacomputeexample$sources_javadoc_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT docs produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/reports/akkacomputeexample-akkacomputeexample$sources_javadoc_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT pom produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/reports/akkacomputeexample-akkacomputeexample$sources_javadoc_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for akkacomputeexample#akkacomputeexample$sources_javadoc_2.10;0.1-SNAPSHOT scala-tool produced in /home/dev/proj/akkaCompute/akkaComputeExample/target/resolution-cache/reports/akkacomputeexample-akkacomputeexample$sources_javadoc_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (923ms resolve - 142ms download)[0m
