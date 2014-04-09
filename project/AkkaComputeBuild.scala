@@ -6,8 +6,12 @@ object Dependencies
 {
   val akkaDep = Seq (
     "com.typesafe.akka"            %% "akka-actor"                  % "2.3.0",
-    "com.typesafe.akka"            %% "akka-slf4j"                  % "2.3.0",
-    "com.typesafe.atmos"           %% "trace-akka-2.2.0"            % "1.2.1")
+    "com.typesafe.akka"            %% "akka-slf4j"                  % "2.3.0"
+  )
+
+  val logDep     = Seq (
+    "com.typesafe"                 %% "scalalogging-slf4j"          % "1.0.1"
+  )
 
 }
 
