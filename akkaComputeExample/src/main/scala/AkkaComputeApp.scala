@@ -7,11 +7,13 @@ import scala.util.Random
 
 
 object AkkaComputeApp extends App {
+  
   val exampleSystem = ActorSystem("exampleSystem")
 
   val computeManager = exampleSystem.actorOf(Props[ComputeManager], name = "computing-manager")
 
   computeManager ! Compute(inputSet)
+  
 }
 
 
